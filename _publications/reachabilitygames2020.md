@@ -1,5 +1,5 @@
 ---
-title: "Reachability Games for Optimal Multi-agent Scheduling of Tasks with Bariable Durations"
+title: "Reachability Games for Optimal Multi-agent Scheduling of Tasks with Variable Durations"
 collection: publications
 permalink: /publication/reachabilitygames2020
 date: 2020-12-1
