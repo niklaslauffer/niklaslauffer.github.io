@@ -55,12 +55,12 @@ main:
     code: "https://github.com/RAD-Embeddings/rad-embeddings"
     page: "https://rad-embeddings.github.io"
     image: /assets/img/rad.png
-    categories: ["formal-methods", "selected", "rl"]
+    categories: ["formal-methods", "selected", "rl", "ai-safety"]
 
   - title: "Welfare Diplomacy: Benchmarking Language Model Cooperation"
     authors: "G. Mukobi, H. Erlebach, <ins>N. Lauffer</ins>, L. Hammond, A. Chan, J. Clifton."
-    conference_short: "arXiv"
-    conference: "arXiv 2024."
+    conference_short: "NeurIPS SOLAR"
+    conference: "NeurIPS SOLAR 2023."
     pdf: "https://arxiv.org/abs/2310.08901"
     code: "https://github.com/mukobi/welfare-diplomacy"
     image: /assets/img/wf.png
