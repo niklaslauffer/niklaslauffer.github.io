@@ -1,0 +1,15 @@
+main:
+  - id: selected
+    label: Selected Publications
+  - id: ai-safety
+    label: AI Safety
+  - id: game-theory
+    label: Multi-Agent
+  - id: rl
+    label: Reinforcement Learning
+  - id: lm-agents
+    label: LM Agents
+  - id: formal-methods
+    label: Formal Methods
+  - id: all
+    label: All

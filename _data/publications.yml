@@ -1,0 +1,149 @@
+main:
+
+  - title: "SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?"
+    authors: "X. Deng, J. Da, E. Pan, Y. He, C. Ide, K. Garg, <ins>N. Lauffer</ins>, A. Park et. al."
+    conference_short: "ICML 2026"
+    conference: "In submission at ICML 2026."
+    pdf: "https://arxiv.org/abs/2509.16941"
+    code: "https://github.com/scaleapi/SWE-bench_Pro-os"
+    page: "https://scale.com/leaderboard/swe_bench_pro_public"
+    image: /assets/img/swebenchpro.png
+    categories: ["selected", "lm-agents", "ai-safety"]
+
+  - title: "Imitation Learning for Multi-Turn LM Agents via On-policy Expert Corrections"
+    authors: "<ins>N. Lauffer</ins>, X. Deng, S. Kundurthy, B. Kenstler, J. Da."
+    conference_short: "ICML 2026"
+    conference: "In submission at ICML 2026."
+    pdf: "https://arxiv.org/abs/2512.14895"
+    code: "https://github.com/niklaslauffer/on-policy-expert-corrections"
+    image: /assets/img/oec.png
+    categories: ["selected", "lm-agents", "rl"]
+
+  - title: "Robust and Diverse Multi-Agent Learning via Rational Policy Gradient"
+    authors: "<ins>N. Lauffer</ins>, A. Shah, M. Carroll, S. Seshia, S. Russell, and M. Dennis."
+    conference_short: "NeurIPS 2025"
+    conference: "NeurIPS 2025."
+    pdf: "https://arxiv.org/abs/2511.09535"
+    code: "https://github.com/niklaslauffer/rational-policy-gradient"
+    page: "https://rational-policy-gradient.github.io/"
+    image: /assets/img/rpg.png
+    categories: ["selected", "ai-safety", "game-theory", "rl"]
+
+  - title: "Multi-Agent Risks from Advanced AI"
+    authors: "Hammond et al."
+    conference_short: "CAIF Technical Report 2025"
+    conference: "CAIF Technical Report 2025."
+    pdf: "https://arxiv.org/abs/2502.14143"
+    page: "https://www.cooperativeai.com/post/new-report-multi-agent-risks-from-advanced-ai"
+    image: /assets/img/mar.png
+    categories: ["selected", "ai-safety", "game-theory"]
+
+  - title: "Learning Symbolic Task Decompositions for Multi-Agent Teams"
+    authors: "A. Shah<sup>*</sup>, <ins>N. Lauffer</ins><sup>*</sup>, T. Chen<sup>*</sup>, N. Pitta<sup>*</sup>, S. Seshia."
+    conference_short: "AAMAS 2025"
+    conference: "AAMAS 2025."
+    pdf: "https://arxiv.org/abs/2502.13376"
+    image: /assets/img/decomp_rm.png
+    code: "https://github.com/thomasychen/LOTaD"
+    categories: ["game-theory", "formal-methods", "rl"]
+
+  - title: "Compositional Automata Embeddings for Goal-Conditioned Reinforcement Learning"
+    authors: "B. Yalcinkaya<sup>*</sup>, <ins>N. Lauffer</ins><sup>*</sup>, M. Vazquez-Chanlatte<sup>*</sup>, S. Seshia."
+    conference_short: "NeurIPS"
+    conference: "NeurIPS 2024."
+    pdf: "https://arxiv.org/abs/2411.00205"
+    code: "https://github.com/RAD-Embeddings/rad-embeddings"
+    page: "https://rad-embeddings.github.io"
+    image: /assets/img/rad.png
+    categories: ["formal-methods", "selected", "rl"]
+
+  - title: "Welfare Diplomacy: Benchmarking Language Model Cooperation"
+    authors: "G. Mukobi, H. Erlebach, <ins>N. Lauffer</ins>, L. Hammond, A. Chan, J. Clifton."
+    conference_short: "arXiv"
+    conference: "arXiv 2024."
+    pdf: "https://arxiv.org/abs/2310.08901"
+    code: "https://github.com/mukobi/welfare-diplomacy"
+    image: /assets/img/wf.png
+    categories: ["selected", "ai-safety", "lm-agents", "game-theory"]
+
+  - title: "Who Needs to Know? Minimal Knowledge for Optimal Coordination"
+    authors: "<ins>N. Lauffer</ins>, A. Shah, M. Carroll, M. Dennis, and S. Russell."
+    conference_short: "ICML"
+    conference: "ICML 2023."
+    pdf: "/files/minknowledge2023.pdf"
+    page: "https://minknowledge.github.io/"
+    image: /assets/img/sec.png
+    categories: ["selected", "ai-safety", "game-theory"]
+
+  - title: "On Expected Value Strong Controllability"
+    authors: "<ins>N. Lauffer</ins>, W. Lassiter, J. Frank."
+    conference_short: "JAIR"
+    conference: "JAIR 2023."
+    image: /assets/img/pstn.png
+    pdf: "https://www.jair.org/index.php/jair/article/view/14561"
+    categories: ["formal-methods"]
+
+  - title: "Multiscale Heterogeneous Optimal Lockdown Control for COVID-19 Using Geographic Information"
+    authors: "C. Neary, M. Cubuktepe, <ins>N. Lauffer</ins>, X. Jin, A. Phillips, Z. Xu, D. Tong, and U. Topcu."
+    conference_short: "Scientific Reports"
+    conference: "Scientific Reports 2022."
+    pdf: "https://www.nature.com/articles/s41598-022-11546-5"
+    image: /assets/img/lockdown.png
+    categories: ["formal-methods"]
+
+  - title: "No-regret Learning in Dynamic Stackelberg Games"
+    authors: "<ins>N. Lauffer</ins>, M. Ghasemi, A. Hashemi, Y. Savas, and U. Topcu."
+    conference_short: "arXiv"
+    conference: "arXiv preprint 2022."
+    pdf: "https://arxiv.org/abs/2202.04786"
+    image: /assets/img/stackelberg.png
+    categories: ["selected", "game-theory", "rl"]
+
+  - title: "Learning Deterministic Finite Automata Decompositions from Examples and Demonstrations"
+    authors: "<ins>N. Lauffer</ins><sup>*</sup>, B. Yalcinkaya<sup>*</sup>, M. Vazquez-Chanlatte, A Shah, and S. Seshia."
+    conference_short: "FMCAD"
+    conference: "FMCAD 2022."
+    pdf: "https://arxiv.org/abs/2205.13013"
+    code: "https://github.com/mvcisback/dfa-identify/tree/decomposition"
+    image: /assets/img/cdfa.png
+    categories: ["formal-methods"]
+
+  - title: "Reachability Games for Optimal Multi-agent Scheduling of Tasks with Variable Durations"
+    authors: "D. Raju, <ins>N. Lauffer</ins>, U. Topcu."
+    conference_short: "COCOA"
+    conference: "COCOA 2020."
+    image: /assets/img/reachability.png
+    pdf: "https://link.springer.com/chapter/10.1007/978-3-030-64843-5_11"
+    categories: ["formal-methods", "game-theory"]
+
+  - title: "Training Classifiers for Feedback Control with Safety in Mind"
+    authors: "H. Poonawala, <ins>N. Lauffer</ins>, U. Topcu."
+    conference_short: "ACC"
+    conference: "ACC 2019."
+    pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0005109821000297"
+    image: /assets/img/feedbackcontrol.png
+    categories: ["formal-methods"]
+
+  - title: "Human-understandable Explanations of Infeasibility for Resource-constrained Scheduling Problems"
+    authors: "<ins>N. Lauffer</ins>, U. Topcu."
+    conference_short: "ICAPS XAIP Workshop"
+    conference: "ICAPS XAIP Workshop 2019."
+    image: /assets/img/scheduling.png
+    pdf: "https://www.semanticscholar.org/paper/Human-Understandable-Explanations-of-Infeasibility-Lauffer-Topcu/12dfce67ec051495b5bc4f89b71cbd7f3738f1d4"
+    categories: ["formal-methods"]
+
+  - title: "Expedited Learning in MDPs with Side Information"
+    authors: "M. Ornik, J. Fu, <ins>N. Lauffer</ins>, K. W. Perera, M. Alshiekh, M. Ono, and U. Topcu."
+    conference_short: "ACC"
+    conference: "CDC 2018."
+    pdf: "https://ieeexplore.ieee.org/document/8619134"
+    image: /assets/img/sideinfo.png
+    categories: ["formal-methods", "rl"]
+
+  - title: "Affine Multiplexing Networks: System Analysis, Learning, and Computation"
+    authors: "I. Papusha, U. Topcu, S. Car, <ins>N. Lauffer</ins>."
+    conference_short: "arXiv"
+    conference: "arXiv preprint 2018."
+    pdf: "https://arxiv.org/abs/1805.00164"
+    image: /assets/img/amn.png
+    categories: ["formal-methods"]

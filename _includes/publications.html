@@ -1,0 +1,108 @@
+{% if site.data.publications %}
+
+<h2 id="publications" class="publications-title">Publications</h2>
+
+{% if site.data.publication_categories %}
+<div class="publication-tabs" role="tablist" aria-label="Publication categories">
+  {% for cat in site.data.publication_categories.main %}
+    <button class="tab-button{% if cat.id == 'selected' %} active{% endif %}" data-category="{{ cat.id }}" type="button">
+      {{ cat.label }}
+    </button>
+  {% endfor %}
+</div>
+{% endif %}
+
+<div class="publications">
+  <ol class="bibliography">
+
+    {% for link in site.data.publications.main %}
+    {% assign category_list = link.categories | join: ' ' %}
+
+    <li class="paper" data-categories="all {{ category_list }}">
+      <div class="paper-card">
+        {% if link.image %}
+        <div class="paper-media">
+          <img src="{{ link.image }}" alt="{{ link.title }} teaser">
+        </div>
+        {% endif %}
+        <div class="paper-main">
+          <div class="paper-title">
+            <a href="{{ link.pdf | default: link.page }}" target="_blank" rel="noopener">
+              {{ link.title }}
+            </a>
+          </div>
+          <div class="paper-authors">{{ link.authors }}</div>
+          {% if link.conference %}
+          <div class="paper-venue">{{ link.conference }}</div>
+          {% endif %}
+        </div>
+        <div class="paper-links">
+          {% if link.pdf %}
+          <a class="paper-link paper-link--pdf" href="{{ link.pdf }}" target="_blank" rel="noopener">
+            <i class="fa-regular fa-file-lines"></i>
+            Paper
+          </a>
+          {% endif %}
+          {% if link.page %}
+          <a class="paper-link paper-link--page" href="{{ link.page }}" target="_blank" rel="noopener">
+            <i class="fa-solid fa-link"></i>
+            Project
+          </a>
+          {% endif %}
+          {% if link.code %}
+          <a class="paper-link paper-link--code" href="{{ link.code }}" target="_blank" rel="noopener">
+            <i class="fa-solid fa-code"></i>
+            Code
+          </a>
+          {% endif %}
+          {% if link.bibtex %}
+          <a class="paper-link paper-link--bib" href="{{ link.bibtex }}" target="_blank" rel="noopener">
+            <i class="fa-solid fa-quote-right"></i>
+            BibTeX
+          </a>
+          {% endif %}
+          {% if link.notes %}
+          <span class="paper-note">{{ link.notes }}</span>
+          {% endif %}
+          {% if link.others %}
+          {{ link.others }}
+          {% endif %}
+        </div>
+      </div>
+    </li>
+
+    {% endfor %}
+
+  </ol>
+</div>
+
+{% endif %}
+
+{% if site.data.publication_categories %}
+<script>
+  (function () {
+    var buttons = document.querySelectorAll('.publication-tabs .tab-button');
+    var papers = document.querySelectorAll('.publications .paper');
+    if (!buttons.length || !papers.length) return;
+
+    function setActive(category) {
+      buttons.forEach(function (btn) {
+        btn.classList.toggle('active', btn.dataset.category === category);
+      });
+      papers.forEach(function (paper) {
+        var categories = (paper.dataset.categories || '').split(' ');
+        var show = category === 'all' || categories.indexOf(category) !== -1;
+        paper.style.display = show ? '' : 'none';
+      });
+    }
+
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        setActive(btn.dataset.category);
+      });
+    });
+
+    setActive('selected');
+  })();
+</script>
+{% endif %}
