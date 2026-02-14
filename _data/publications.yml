@@ -93,8 +93,8 @@ main:
 
   - title: "No-regret Learning in Dynamic Stackelberg Games"
     authors: "<ins>N. Lauffer</ins>, M. Ghasemi, A. Hashemi, Y. Savas, and U. Topcu."
-    conference_short: "arXiv"
-    conference: "arXiv preprint 2022."
+    conference_short: "TAC"
+    conference: "TAC 2023."
     pdf: "https://arxiv.org/abs/2202.04786"
     image: /assets/img/stackelberg.png
     categories: ["selected", "game-theory", "rl"]
