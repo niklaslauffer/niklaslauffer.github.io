@@ -15,8 +15,8 @@ In my free time, I enjoy rock climbing, cycling, hiking, playing board games, an
 
 <div class="timeline">
   <div class="timeline-item">
-    <div class="timeline-date">May 2026</div>
-    <div class="timeline-content">I'm looking for full-time research scientist positions starting after I graduate.</div>
+    <div class="timeline-date">June 2026</div>
+    <div class="timeline-content">I'll be starting as a Research Scientist at Google Deepmind working on agentic safety after I graduate.</div>
   </div>
   <div class="timeline-item">
     <div class="timeline-date">Jan 2026</div>
